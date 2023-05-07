@@ -1,0 +1,97 @@
+body{
+	overflow: hidden;
+}
+.a{
+	width: 200px;
+	height: 200px;
+	background-color:lightblue;
+	color:gold;
+	text-align: center;
+	line-height:200px;
+	transition-property: with,
+    transition-duration:2s,
+}
+
+.a:hover{
+	width:300px;
+}
+.b{
+	width: 200px;
+	height: 200px;
+	background-color:yellow;
+	color:gold;
+	text-align: center;
+	line-height:200px;
+	transition-property: with,height,
+    transition-duration:2s,4s,
+}
+
+.b:hover{
+	width:300px;
+	height:300px ;
+}
+.c{
+	width: 200px;
+	height: 200px;
+	background-color:red;
+	color:gold;
+	text-align: center;
+	line-height:200px;
+	transition-property: with,height,background;
+    transition-duration:2s,2s,2s;
+}
+
+.c:hover{
+	width:300px;
+	height:300px ;
+	background: orange;
+}
+.d{
+	width: 200px;
+	height: 200px;
+	background-color:lightblue;
+	color:gold;
+	text-align: center;
+	line-height:200px;
+	transition: with,height,background 2s,4s,2s; 
+}
+
+.d:hover{
+	width:300px;
+	height:300px ;
+	background:deepskyblue;
+}
+.e{
+	width: 200px;
+	height: 200px;
+	background-color:lightblue;
+	color:gold;
+	text-align: center;
+	line-height:200px;
+	transition: all 2s,2s,2s;
+}
+
+.e:hover{
+	width:300px;
+	height:300px ;
+	background:skyblue;
+}
+.f{
+	width: 200px;
+	height: 200px;
+	background-color:lightblue;
+	color:gold;
+	text-align: center;
+	line-height:200px;
+	transition-property: with,height,background;
+    transition-duration:2s,4s,2s;
+}
+
+.f:hover{
+	width:300px;
+	height:300px ;
+	background: orange;
+}
+
+
+
